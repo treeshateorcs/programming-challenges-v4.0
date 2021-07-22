@@ -1,0 +1,12 @@
+[package]
+name = "ch003"
+version = "0.1.0"
+edition = "2018"
+description = "IRC client"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rustls = "0.19"
+webpki = "0.22"
+webpki-roots = "0.22"
